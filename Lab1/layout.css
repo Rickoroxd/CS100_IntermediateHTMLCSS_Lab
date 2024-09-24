@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family:  Arial;
+}
+
+header,nav,article,div,footer{
+    padding: 10px;
+    background-color: yellow;
+    border: gray solid 1px;
+    text-align: center;
+}
+
+header,footer{
+    width: 100%;
+    
+}
+nav,div{
+    float:left;
+    width: 20%;
+    height: 200px;
+}
+article{
+    float: left;
+    width: 60%;
+    height: 200px;
+}
+
+footer{
+    clear: both;
+}
